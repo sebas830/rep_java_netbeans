@@ -12,6 +12,7 @@ public class ventana_inicio extends javax.swing.JFrame {
     
     public ventana_inicio() {
         initComponents();
+        
         this.setLocationRelativeTo(null);
         
         ImageIcon imagen=new ImageIcon (getClass ().getResource("/imagenes/usuario-DE-PERFIL.png"));
