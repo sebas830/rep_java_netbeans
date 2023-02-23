@@ -12,13 +12,13 @@ public class ventana_inicio extends javax.swing.JFrame {
     
     public ventana_inicio() {
         initComponents();
-        
         this.setLocationRelativeTo(null);
         
         ImageIcon imagen=new ImageIcon (getClass ().getResource("/imagenes/usuario-DE-PERFIL.png"));
         Icon icono_usuario=new ImageIcon(imagen.getImage().getScaledInstance(IMAGEN.getWidth(),IMAGEN.getHeight(),Image.SCALE_DEFAULT));
         IMAGEN.setIcon(icono_usuario);
-
+        
+        
         ImageIcon imagen1=new ImageIcon (getClass ().getResource("/imagenes/steam.png"));
         Icon icono_steam=new ImageIcon(imagen1.getImage().getScaledInstance(logo.getWidth(),logo.getHeight(),Image.SCALE_DEFAULT));
         logo.setIcon(icono_steam);
